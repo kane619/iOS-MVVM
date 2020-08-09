@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BRPickerView (2.6.5):
+    - BRPickerView/AddressPickerView (= 2.6.5)
+    - BRPickerView/Base (= 2.6.5)
+    - BRPickerView/DatePickerView (= 2.6.5)
+    - BRPickerView/StringPickerView (= 2.6.5)
+  - BRPickerView/AddressPickerView (2.6.5):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.6.5)
+  - BRPickerView/DatePickerView (2.6.5):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.6.5):
+    - BRPickerView/Base
+  - ESTabBarController-swift (2.6.5)
+  - HandyJSON (5.0.2-beta)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.4.3)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - TYAttributedLabel (2.6.6)
+  - zhPopupController (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - BRPickerView (~> 2.6.3)
+  - ESTabBarController-swift (~> 2.6.2)
+  - HandyJSON (= 5.0.2-beta)
+  - IQKeyboardManagerSwift (~> 6.5.5)
+  - Kingfisher (~> 4.10.1)
+  - MJRefresh (~> 3.4.3)
+  - SnapKit (~> 4.2.0)
+  - SVProgressHUD (~> 2.2.5)
+  - SwiftyJSON (= 5.0.0)
+  - TYAttributedLabel (~> 2.6.6)
+  - zhPopupController (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BRPickerView
+    - ESTabBarController-swift
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - TYAttributedLabel
+    - zhPopupController
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BRPickerView: 70e2e38b6441d4b43e9d14727aea662756476367
+  ESTabBarController-swift: f31cd3e30bde23619d3b300266f27864d96ffb58
+  HandyJSON: e18b035d60cb4847c609a59bb831c5db8c549663
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TYAttributedLabel: cb8fc910d97eb5224936d4f692a78e042af691b2
+  zhPopupController: 600aee950c86442c5cca0b078d94c71fe0e1c51e
+
+PODFILE CHECKSUM: d0598d59ea28961d908daa95df47f93996768603
+
+COCOAPODS: 1.9.1
