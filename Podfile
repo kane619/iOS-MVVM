@@ -3,6 +3,7 @@ platform :ios, '9.0'
 
 target 'CommonApp' do
   use_frameworks!
+  source 'https://github.com/CocoaPods/Specs.git'
   # 忽略引入库的所有警告
   inhibit_all_warnings!
   # Pods for CommonApp
