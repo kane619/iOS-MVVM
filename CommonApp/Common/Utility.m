@@ -167,14 +167,6 @@
     [view.layer addAnimation:animation forKey:@"kAFViewShakerAnimationKey"];
 }
 
-//清理缓存
-+ (void)clearMemory {
-    //图片
-//    SDWebImageManager *mgr = [SDWebImageManager sharedManager];
-//    [mgr cancelAll];
-//    [mgr.imageCache clearMemory];
-}
-
 //获取对应图片
 + (UIImage *)imageWithimageName:(NSString *)imagename
 {

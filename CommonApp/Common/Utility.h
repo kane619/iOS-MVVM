@@ -35,9 +35,6 @@ typedef NS_ENUM(NSUInteger, GradientType) {
 + (void)bagShakeAnimation:(CALayer *)layer;
 + (void)shakeAnimationWithView:(UIView *)view;
 
-//清理缓存
-+ (void)clearMemory;
-
 //获取对应图片
 + (UIImage *)imageWithimageName:(NSString *)imagename;
 
