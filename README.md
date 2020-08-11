@@ -1,2 +1,2 @@
-# swift-MVVM
+# iOS-MVVM
 Alamofire+HandyJSON+MVVM
