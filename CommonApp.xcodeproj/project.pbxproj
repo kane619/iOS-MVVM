@@ -16,8 +16,6 @@
 		182A04E324DFA35F00142900 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04DF24DFA35F00142900 /* AppContext.swift */; };
 		182A04E424DFA35F00142900 /* CloudAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04DD24DFA35E00142900 /* CloudAPI.swift */; };
 		182A04EA24DFA3B000142900 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04E524DFA3AA00142900 /* BaseViewController.swift */; };
-		182A04EB24DFA3B000142900 /* BouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04E624DFA3AC00142900 /* BouncesContentView.swift */; };
-		182A04EC24DFA3B000142900 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04E724DFA3AD00142900 /* BasicContentView.swift */; };
 		182A04ED24DFA3B000142900 /* IrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04E824DFA3AF00142900 /* IrregularityBasicContentView.swift */; };
 		182A04EE24DFA3B000142900 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04E924DFA3B000142900 /* BaseNavigationController.swift */; };
 		182A04F024DFA3BD00142900 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A04EF24DFA3BD00142900 /* BaseModel.swift */; };
@@ -39,8 +37,6 @@
 		182A04DF24DFA35F00142900 /* AppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
 		182A04E024DFA35F00142900 /* UtilTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilTools.swift; sourceTree = "<group>"; };
 		182A04E524DFA3AA00142900 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		182A04E624DFA3AC00142900 /* BouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncesContentView.swift; sourceTree = "<group>"; };
-		182A04E724DFA3AD00142900 /* BasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
 		182A04E824DFA3AF00142900 /* IrregularityBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IrregularityBasicContentView.swift; sourceTree = "<group>"; };
 		182A04E924DFA3B000142900 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		182A04EF24DFA3BD00142900 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -143,8 +139,6 @@
 			children = (
 				182A04E924DFA3B000142900 /* BaseNavigationController.swift */,
 				182A04E524DFA3AA00142900 /* BaseViewController.swift */,
-				182A04E724DFA3AD00142900 /* BasicContentView.swift */,
-				182A04E624DFA3AC00142900 /* BouncesContentView.swift */,
 				182A04E824DFA3AF00142900 /* IrregularityBasicContentView.swift */,
 				182A04F724DFA9C400142900 /* H5WebViewController.swift */,
 			);
@@ -299,8 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182A04EB24DFA3B000142900 /* BouncesContentView.swift in Sources */,
-				182A04EC24DFA3B000142900 /* BasicContentView.swift in Sources */,
 				182A04F024DFA3BD00142900 /* BaseModel.swift in Sources */,
 				182A04E124DFA35F00142900 /* Header.swift in Sources */,
 				182A04F824DFA9C400142900 /* H5WebViewController.swift in Sources */,

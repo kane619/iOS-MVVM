@@ -2,15 +2,15 @@
 //  LBFMIrregularityBasicContentView.swift
 //  LBFM-Swift
 //
-//  Created by liubo on 2019/2/1.
-//  Copyright © 2019 刘博. All rights reserved.
+//  Created by apple on 2020/7/23.
+//  Copyright © 2020 aaronlee. All rights reserved.
 //
 
 import UIKit
 import ESTabBarController_swift
 
-class IrregularityBasicContentView: BouncesContentView {
-
+class IrregularityBasicContentView: ESTabBarItemContentView {
+    public var duration = 0.3
     override init(frame: CGRect) {
         super.init(frame: frame)
         textColor = UIColor.init(white: 175.0 / 255.0, alpha: 1.0)
@@ -21,6 +21,24 @@ class IrregularityBasicContentView: BouncesContentView {
     
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func selectAnimation(animated: Bool, completion: (() -> ())?) {
+        self.bounceAnimation()
+        completion?()
+    }
+    
+    override func reselectAnimation(animated: Bool, completion: (() -> ())?) {
+        self.bounceAnimation()
+        completion?()
+    }
+    
+    func bounceAnimation() {
+        let impliesAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
+        impliesAnimation.values = [1.0 ,1.4, 0.9, 1.15, 0.95, 1.02, 1.0]
+        impliesAnimation.duration = duration * 2
+        impliesAnimation.calculationMode = CAAnimationCalculationMode.cubic
+        imageView.layer.add(impliesAnimation, forKey: nil)
     }
 
 }
