@@ -12,7 +12,7 @@ target 'CommonApp' do
   #tabbar样式
   pod 'ESTabBarController-swift', '~> 2.6.2'
   pod 'Alamofire', '~> 4.9.1'     #网络请求
-  pod 'HandyJSON', '5.0.2-beta'               #数据解析
+  pod 'HandyJSON', '~> 5.0.2'               #数据解析
   pod 'SwiftyJSON', '5.0.0'
   pod 'MJRefresh', '~> 3.4.3'
   pod 'SVProgressHUD', '~> 2.2.5'
